@@ -1,0 +1,144 @@
+html,
+body,
+h1,
+h2,
+h3,
+p,
+span,
+ul,
+li,
+a,
+div {
+	margin: 0px;
+	padding: 0px;
+	text-decoration: none;
+	color: #1a1a1a;
+	font-family: "Noto Serif JP", serif;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+section,
+footer {
+	padding: 120px 0;
+}
+
+.content {
+	width: 90%;
+	max-width: 1080px;
+	margin: 0 auto;
+}
+
+.content img{
+  width: 100%;
+}
+
+/* ナビゲーション */
+.navi_content {
+	position: fixed;
+	width: 100%;
+	background-color: rgba(255, 255, 255, 0.8);
+	border-bottom: solid 0.5px #1a1a1a;
+}
+
+.navi {
+	display: flex;
+	justify-content: space-between;
+	padding: 20px 0px;
+}
+
+.navi ul {
+	display: flex;
+	list-style-type: none;
+}
+
+.navi ul li {
+	margin: 0 20px;
+}
+
+.navi span {
+	font-size: 20px;
+}
+
+.title {
+	padding-bottom: 40px;
+}
+
+/* 思い出工学とは */
+#head {
+	padding-top: 190px;
+}
+
+.head {
+	display: flex;
+	align-items: center;
+}
+
+.head div {
+	margin-right: 30px;
+}
+
+.head img {
+	width: 30%;
+}
+
+/* 研究内容 */
+.research .title {
+	text-align: center;
+}
+
+.research_bg {
+	background-color: #fffff4;
+}
+
+.research_list {
+	display: flex;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.research_list a div {
+	display: flex;
+	max-width: 300px;
+	flex-direction: column;
+}
+
+.research_list p {
+	text-align: center;
+}
+
+.research_list .fix_p {
+	padding-right: 60px;
+}
+
+.research img {
+	width: 100%;
+}
+
+/* フッター */
+footer {
+	background-color: #1a1a1a;
+}
+
+footer h2,
+footer h3,
+footer p {
+	color: #ffffff;
+}
+
+footer .content {
+	display: flex;
+}
+
+footer .content .references {
+	margin-right: 30px;
+	flex-grow: 2;
+	flex-shrink: 1;
+}
+
+footer .content .copyright {
+	flex-grow: 1;
+	flex-shrink: 4;
+}
