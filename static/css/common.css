@@ -31,8 +31,8 @@ footer {
 	margin: 0 auto;
 }
 
-.content img{
-  width: 100%;
+.content img {
+	width: 100%;
 }
 
 /* ナビゲーション */
@@ -66,6 +66,18 @@ footer {
 	padding-bottom: 40px;
 }
 
+.group {
+	padding: 15px 0;
+}
+
+.group p {
+	padding-left: 10px;
+}
+
+.group ul {
+	padding-left: 30px;
+}
+
 /* 思い出工学とは */
 #head {
 	padding-top: 190px;
@@ -95,7 +107,7 @@ footer {
 
 .research_list {
 	display: flex;
-  justify-content: space-between;
+	justify-content: space-between;
 	width: 100%;
 	margin: 0 auto;
 }
