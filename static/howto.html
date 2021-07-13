@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
+  <title>思い出工学の仕組み | 思い出工学</title>
+  <link rel="stylesheet" href="css/common.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@500&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <header class="navi_content">
+    <div class="content navi">
+      <div>
+        <a href="./index.html"><span>思い出工学</span></a>
+      </div>
+      <ul>
+        <li><a href="./index.html#head">思い出工学とは</a></li>
+        <li><a href="./index.html#research">研究内容</a></li>
+        <li><a href="./index.html#future">今後の展望</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <section>
+    <div class="content">
+      <div class="title">
+        <h1>思い出工学の仕組み</h1>
+        <p>
+          立命館大学の研究室では思い出という情報を対象に、それを入手し、管理し、活用するための研究を行っている。
+          対象としている主なシステムは次のとおりである。
+        </p>
+        <li><a href="#sistem1" class="next">思い出想起支援システム</a></li>
+        <li>
+          <a href="#sistem2" class="next">思い出共有によるコミュニケーション支援システム</a>
+        </li>
+        <li>
+          <a href="#sistem3" class="next">思い出情報を利用した人の活動、行動支援</a>
+        </li>
+        <li><a href="#sistem4" class="next">思い出情報の収集システム</a></li>
+      </div>
+    </div>
+
+    <div class="content">
+      <div class="group">
+        <h3 id="sistem1">思い出想起支援システム</h3>
+        <p>
+          人は不意に思い出すことがあるが、それは<span class="marker">五感</span>のいずれかがその思い出に関する何かを手に入れたからである。人は、思い出想起には<span
+            class="marker">トリガー</span>
+          が必要である。それになるものを探した結果、写真、地図、航空写真、新聞記事、社会的イベント名、流行歌、香り、他者が想起して思い出がある。
+          写真や地図などのように、<span class="marker">特定の場所とその周辺の情報提示が効果的</span>であることがわかった。香りについては、その当時の香りを香り合成装置を用いて
+          料理を再現する。その結果、思い出の想起を促す効果はあったが、料理名に比べて香りの印象が強くなりすぎる傾向もあった。
+          最後に日常生活で口ずさむ<a id="js_btn_humming" class="marker">*ハミング</a>をトリガーとして想起支援を行った。ハミングの際は無意識に思い出を想起している可能性が高い。
+          ハミングしている曲をiphoneのmidomiというアプリで特定し、曲名、歌手名、流行った時代をユーザーに提示することで、その曲に関する思い出の想起を促す。
+          このように、このシステムでは、いろいろなトリガーをためし、思い出想起を支援している。
+        </p>
+      </div>
+      <div class="group">
+        <h3 id="sistem2">思い出共有によるコミュニケーション支援システム</h3>
+        <p>
+          思い出の想起ができないとき、その場にいた人たちに<span class="marker">聞くことで想起</span>されることがある。修学旅行などの複数の人が集まるイベントは多くの人と思い出を共有する。
+          思い出の共有は、自分の思い込みや記憶違いを避けることができる。共通の思い出を持った人が集まる同窓会などで、思い出を登録するWebサイトを使い、
+          参加する人たちで思い出を共有し、修正や追加もできる。このシステムは仮設住宅などに分散居住している被災者が臨時集会場などに集まる状況を支援することを想定している。
+          このシステムにより、特定地域に関する思い出のそうきを誘発できる。
+        </p>
+      </div>
+      <div class="group">
+        <h3 id="sistem3">思い出情報を利用した人の活動、行動支援</h3>
+        <p>
+          思い出を利用して行動しているのは<span class="marker">病院</span>に入院している人たちである。入院している人は、お互いどのような病気でどこに住んでいて、何が好きなのかもわからない状態である。
+          この状態では、コミュニケーションがとりにくい。そこで、まず自分の情報を端末に登録する。その端末にはbluetooth機能が備わってあるので、それを<span class="marker">持って歩くだけで、
+            お互いの情報</span>を知ることができる。その情報があるだけで、コミュニケーションが取りやすくなる。さらに、出身地が同じだった場合、話を深く掘り下げることができるので、
+          その<span class="marker">地域のコミュニティ</span>を作ることができる。
+        </p>
+      </div>
+      <div class="group">
+        <h3 id="sistem4">思い出情報の収集システム</h3>
+        <p>
+          思い出の収集方法として、<span class="marker">記述形式</span>というものがある。それは、自由形式のテキスト表現と、人間の認知構造を考慮して予め設定したフォーマットに短文
+          や単語を入力する穴埋め形式の2種類を比較した。結果、想起された思い出の量は違いはなく、書きやすさについては、自由形式のテキスト表現の方が好まれた。
+          一方、自由形式は時間、行動、場所などが断片的に記述されており、その時の詳しい内容がわからないが、フォーマット形式の場合は、用意された項目に対して、
+          空欄を埋めるので、自由形式では記述されなかった時間がフォーマット形式では記述されていた。フォーマットで決められている分、自由形式よりも記述の量は少なかった。
+          人間は<span class="marker">一つのトリガーで複数の思い出を断片的に想起</span>する。この情報から最も効率的な方法はキーワードを与えることである。キーワードを与えることで、
+          そのキーワードに関する思い出をテキストに整理してまとめるようにしたが、<span class="marker">キーワードを追っていく</span>につれて、想起した思い出を忘れることがある。
+          この問題点をどのように解決するのかは、検討中である。
+        </p>
+      </div>
+  </section>
+
+  <!-- フッター -->
+  <footer>
+    <div class="content">
+      <div class="references">
+        <div class="title">
+          <h2>参考文献</h2>
+          <p>References</p>
+        </div>
+        <p>
+          <a href="http://socialcomm.sakura.ne.jp/sclab/pdf/69.pdf"
+            target="_blank">仲谷善雄（立命館大学）泉朋子（立命館大学）,第5回横幹連合総合シンポジウム,思い出工学の提案～被災者の思い出想起支援を中心に～</a>
+        </p>
+      </div>
+      <div class="copyright">
+        <h3>作成者</h3>
+        <p>
+          このWebサイトは、立命館大学
+          情報理工学部の先端社会デザイン創生1の課題で作成したものです。
+        </p>
+      </div>
+    </div>
+  </footer>
+  <script>
+    const test_btn = document.getElementById("js_btn_humming");
+    test_btn.addEventListener("click", () => {
+      alert(
+        "口を閉じ、声を鼻に抜いてメロディーを歌うこと。鼻歌とは同義語とは限らない。"
+      );
+    });
+  </script>
+</body>
+</html>

@@ -14,6 +14,7 @@ div {
 	text-decoration: none;
 	color: #1a1a1a;
 	font-family: "Noto Serif JP", serif;
+	line-height: 2.5em;
 }
 
 html {
@@ -33,6 +34,10 @@ footer {
 
 .content img {
 	width: 100%;
+}
+
+.marker {
+	background: linear-gradient(transparent 70%, #ffff00 0%);
 }
 
 /* ナビゲーション */
@@ -64,6 +69,7 @@ footer {
 
 .title {
 	padding-bottom: 40px;
+	line-height: 1em;
 }
 
 .group {
@@ -137,7 +143,8 @@ footer {
 
 footer h2,
 footer h3,
-footer p {
+footer p,
+footer a {
 	color: #ffffff;
 }
 
@@ -154,4 +161,49 @@ footer .content .references {
 footer .content .copyright {
 	flex-grow: 1;
 	flex-shrink: 4;
+}
+
+/* 追加 */
+#js_btn_humming {
+	cursor: pointer;
+}
+
+iframe {
+	width: 100%;
+	height: 600px;
+}
+
+@media screen and (max-width: 479px) {
+	.navi ul li {
+		display: none;
+	}
+	footer .content {
+		display: block;
+	}
+	footer .title {
+		padding-bottom: 10px;
+	}
+
+	footer .content .copyright {
+		padding-top: 40px;
+	}
+
+	#head img {
+		display: none;
+	}
+
+	.research_list {
+		display: block;
+		text-align: center;
+		margin: 0 auto;
+	}
+
+	.research_list .fix_p {
+		padding: 0px;
+	}
+
+	.research_list a div {
+		max-width: 400px;
+    padding-bottom: 40px;
+	}
 }
